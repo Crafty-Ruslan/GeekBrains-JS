@@ -17,7 +17,7 @@ function init() {
     function styleGoodsList() {
         let elementsToStyle = document.getElementsByClassName('goods-item')
         for (let i = 0; i < elementsToStyle.length; i++) {
-            elementsToStyle[i].style.border = "solid 1px salmon";
+            elementsToStyle[i].style.border = "solid 2px salmon";
             elementsToStyle[i].style.width = "100px";
             elementsToStyle[i].style.margin = "10px";
             elementsToStyle[i].style.padding = "5px";
